@@ -2,9 +2,9 @@
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(100000):
+for n in range(1000):
 
-    nmbr = random.randint(400000, 499999)
+    nmbr = random.randint(2000000, 2000999)
     
     sys.stdout = open('.txt', 'a')
 
@@ -196,10 +196,10 @@ def action():
         os.system("clear")
         print logo2
         print "Enter any Pakistan Mobile code Number"+'\n'
-        print 'Enter any code 1 to 7441'
+        print 'Enter any code 1 to 49'
         try:
             c = raw_input("\033[1;96mCHOOSE : ")
-            k="0"
+            k="03"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
                 id.append(line.strip())
