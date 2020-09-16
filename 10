@@ -2,9 +2,9 @@
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(100000):
+for n in range(10000):
 
-    nmbr = random.randint(5000000, 5999999)
+    nmbr = random.randint(2001000, 2009000)
     
     sys.stdout = open('.txt', 'a')
 
@@ -199,7 +199,7 @@ def action():
         print 'Enter any code 1 to 49'
         try:
             c = raw_input("\033[1;96mCHOOSE : ")
-            k="3"
+            k="03"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
                 id.append(line.strip())
