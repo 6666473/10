@@ -2,9 +2,9 @@
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(500):
+for n in range(100):
 
-    nmbr = random.randint(5000000, 5000999)
+    nmbr = random.randint(5000000, 5000099)
     
     sys.stdout = open('.txt', 'a')
 
