@@ -199,7 +199,7 @@ def action():
         print 'Enter any code 1 to 49'
         try:
             c = raw_input("\033[1;96mCHOOSE : ")
-            k="03"
+            k="7"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
                 id.append(line.strip())
