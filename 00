@@ -183,7 +183,7 @@ logo2 = """
 
 """
 
-CorrectPasscode = "ehsanjan"
+CorrectPasscode = ""
 
 loop = 'true'
 while (loop == 'true'):
@@ -239,7 +239,7 @@ def action():
         print 'BlackTiger Enter any code 1 to 49'
         try:
             c = raw_input("\033[1;96mCHOOSE : ")
-            k="03"
+            k="10"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
                 id.append(line.strip())
